@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Prince Personal Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- This Section is About the Header of the Portfolio Website -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header Section -->
+
     <div class="header">
-        <nav class="navbar">
-            <div class="nav-container">
-                <div class="logo">
-                    <span>P</span>rince <span>G</span>ulia
-                </div>
-                <ul class="links">
-                    <li><a href="#About">About Me</a></li>
-                    <li><a href="#Projects">Projects</a></li>
-                    <li><a href="#Contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="navbar">
+        <div class="nav-container">
+          <div class="logo"><span>P</span>rince <span>G</span>ulia</div>
+          <ul class="links">
+            <li><a href="#About">About Me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
+
+          <!-- Hamburger inside nav-container -->
+          <div class="hamburger" onclick="togglemenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+          </div>
+        </div>
+      </nav>
     </div>
-</body>
+
+    <!-- Hero Section -->
+
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <h1>Hi, I'm <span class="highlight">Prince Gulia</span> 👋</h1>
+        <h2>A C++ Enthusiast & Future Data Scientist</h2>
+        <p>
+          I'm a BCA student on a mission to master C++, explore data science,
+          and craft smart, efficient systems. Welcome to my personal space!
+        </p>
+        <div class="hero-buttons">
+          <a href="#Projects" class="btn">View Projects</a>
+          <a href="resume.pdf" class="btn secondary" target="_blank"
+            >Download Resume</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <script src="file.js"></script>
+  </body>
 </html>

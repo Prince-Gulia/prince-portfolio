@@ -63,3 +63,104 @@ body {
     color: #ffffff;
     text-shadow: 0 0 25px #00ffd5;
 }
+
+/* Hamburger base style */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .links {
+        display: none;
+        flex-direction: column;
+        background-color: #111;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        width: 150px;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    .links.active {
+        display: flex;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+}
+
+/* Hero Section */
+
+.hero {
+    padding: 100px 20px;
+    background-color: #0d1117; /* Dark background to match the navbar */
+    text-align: center;
+    color: #e4e6eb; /* Light text */
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+.hero-content h2 {
+    font-size: 1.8rem;
+    color: #c9d1d9;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1rem;
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #8b949e;
+}
+
+.hero-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 12px 25px;
+    font-size: 1rem;
+    border: none;
+    background-color: #238636; /* Green button like GitHub */
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #2ea043;
+}
+
+.btn.secondary {
+    background-color: #30363d;
+}
+
+.btn.secondary:hover {
+    background-color: #484f58;
+}
+
+.highlight {
+    color: #58a6ff; /* Bright blue for name */
+}
+
