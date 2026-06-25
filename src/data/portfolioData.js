@@ -177,7 +177,7 @@ export const projects = [
     image:
       "https://images.unsplash.com/photo-1611746872915-64382b5c76da?w=600&h=400&fit=crop",
     github: "https://github.com/Prince-Gulia/Real_Time_Chat",
-    live: "https://real-time-chat-kzei.onrender.com",
+    live: "https://real-time-chat-frontend-r3tw.onrender.com",
     featured: true,
     accentColor: "var(--teal)",
   },
