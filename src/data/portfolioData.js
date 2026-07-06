@@ -16,7 +16,7 @@ export const personalInfo = {
   location: "Delhi, India",
   available: true,
   availableText: "Available for Opportunities",
-  resumeUrl: "/Prince_Gulia_FlowCV_Resume_2026-06-18 (6).pdf",
+  resumeUrl: "/PrinceGuliaResume.pdf",
   social: {
     github: "https://github.com/Prince-Gulia",
     linkedin: "https://www.linkedin.com/in/princegulia/",
@@ -27,7 +27,7 @@ export const education = {
   degree: "Bachelor of Computer Applications (BCA)",
   status: "BCA Graduate", // or BCA student/candidate
   university: "Guru Gobind Singh Indraprastha University (IITM Janakpuri)",
-  years: "2023 – 2026",
+  years: "2024 – 2027 (Expected)",
   location: "New Delhi, India",
   gpa: "9.5 / 10.0",
   progress: 98,
