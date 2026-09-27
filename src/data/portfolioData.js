@@ -93,7 +93,7 @@ export const highlights = [
 ];
 
 export const stats = [
-  { value: "3+", label: "Projects Completed", color: "accent" },
+  { value: "8+", label: "Projects Completed", color: "accent" },
   { value: "12+", label: "Technologies Mastered", color: "teal" },
   { value: "9.5", label: "GPA / 10", color: "accent" },
   { value: "∞", label: "Coffee Cups", color: "teal" },
@@ -152,6 +152,7 @@ export const projectCategories = [
   "Full Stack",
   "AI/ML",
   "Backend",
+  "Data Science",
 ];
 
 export const projects = [
@@ -167,6 +168,45 @@ export const projects = [
     live: "https://docu-mind-frontend-pi.vercel.app/",
     featured: true,
     accentColor: "var(--accent)",
+  },
+  {
+    title: "Agentic PPT Generator",
+    description:
+      "An AI agent application that automatically generates complete presentations (PPTs), generates contextual AI images, and fetches the latest web news using Google Gemini API and Tavily search integration.",
+    category: "AI/ML",
+    tags: ["Python", "Streamlit", "Gemini API", "Tavily API", "GenAI", "AI Agents"],
+    image:
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop",
+    github: "https://github.com/Prince-Gulia/PPT-Generator",
+    live: "https://pptgenerator17.streamlit.app/",
+    featured: true,
+    accentColor: "var(--accent)",
+  },
+  {
+    title: "AI Powered Data Analyst Agent",
+    description:
+      "An intelligent data analysis agent that automatically processes uploaded datasets, generates univariate, bivariate, and multivariate visualizations, and enables conversational data exploration.",
+    category: "Data Science",
+    tags: ["Python", "Streamlit", "Groq API", "Gemini API", "Pandas", "Data Analysis"],
+    image:
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop",
+    github: "https://github.com/Prince-Gulia/Practice_Ai_Agentic",
+    live: "https://agenticai17.streamlit.app/",
+    featured: true,
+    accentColor: "#a78bfa",
+  },
+  {
+    title: "AI Resume Generator",
+    description:
+      "Generates customized professional resumes tailored to target roles with real-time job application links, powered by multi-API integration with Tavily, Groq, and Gemini.",
+    category: "AI/ML",
+    tags: ["Python", "Streamlit", "Gemini API", "Groq API", "Tavily API", "GenAI"],
+    image:
+      "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=600&h=400&fit=crop",
+    github: "https://github.com/Prince-Gulia/Resume_Maker_AI",
+    live: "https://resumemakerai17.streamlit.app/",
+    featured: true,
+    accentColor: "var(--green)",
   },
   {
     title: "Real Time Chat App",
@@ -193,6 +233,32 @@ export const projects = [
     live: "https://marvelous-mermaid-d54410.netlify.app/",
     featured: true,
     accentColor: "#a78bfa",
+  },
+  {
+    title: "File Upload & Processing API",
+    description:
+      "A secure backend service featuring user authentication, file uploads, background processing pipelines, and a management dashboard interface.",
+    category: "Backend",
+    tags: ["Node.js", "Express", "REST APIs", "JWT", "File Processing", "Render"],
+    image:
+      "https://images.unsplash.com/photo-1618401471353-b98aedd04e11?w=600&h=400&fit=crop",
+    github: "https://github.com/Prince-Gulia/file-upload-api",
+    live: "https://file-upload-api-k981.onrender.com/dashboard.html",
+    featured: false,
+    accentColor: "#38bdf8",
+  },
+  {
+    title: "ML Flower Classification App",
+    description:
+      "Interactive machine learning application that predicts iris flower species based on sepal and petal feature inputs using scikit-learn models and Streamlit.",
+    category: "Data Science",
+    tags: ["Python", "Streamlit", "Scikit-Learn", "Machine Learning", "Pandas"],
+    image:
+      "https://images.unsplash.com/photo-1518531933037-91b2f5f229cc?w=600&h=400&fit=crop",
+    github: "https://github.com/Prince-Gulia/ML_practice",
+    live: "https://mlpractice-tvhpmvbkrjtxjzgghqmbyv.streamlit.app/",
+    featured: false,
+    accentColor: "var(--teal)",
   },
 ];
 
