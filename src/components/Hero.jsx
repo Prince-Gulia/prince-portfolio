@@ -176,25 +176,17 @@ export default function Hero() {
         <div className="hero-right reveal">
           <div className="hero-avatar-wrapper">
             <div className="hero-avatar-ring">
-              <div
-                className="hero-avatar-inner"
-                style={{
-                  background: 'linear-gradient(135deg, var(--accent), var(--teal))',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                }}
-              >
-                <span
+              <div className="hero-avatar-inner">
+                <img
+                  src="/profile.jpg"
+                  alt="Prince Gulia"
                   style={{
-                    fontSize: '4rem',
-                    fontWeight: 800,
-                    fontFamily: "'JetBrains Mono'",
-                    color: '#111',
+                    width: '100%',
+                    height: '100%',
+                    objectFit: 'cover',
+                    display: 'block',
                   }}
-                >
-                  PG
-                </span>
+                />
               </div>
             </div>
             <div className="hero-float-badge hero-float-badge-top">
