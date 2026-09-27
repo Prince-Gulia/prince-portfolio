@@ -29,7 +29,7 @@ export const education = {
   university: "Guru Gobind Singh Indraprastha University (IITM Janakpuri)",
   years: "2024 – 2027 (Expected)",
   location: "New Delhi, India",
-  gpa: "9.5 / 10.0",
+  gpa: "9.52 / 10.0",
   progress: 98,
   coursework: [
     "Data Structures & Algorithms",
@@ -95,7 +95,7 @@ export const highlights = [
 export const stats = [
   { value: "8+", label: "Projects Completed", color: "accent" },
   { value: "12+", label: "Technologies Mastered", color: "teal" },
-  { value: "9.5", label: "GPA / 10", color: "accent" },
+  { value: "9.52", label: "GPA / 10", color: "accent" },
   { value: "∞", label: "Coffee Cups", color: "teal" },
 ];
 
